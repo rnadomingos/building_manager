@@ -19,6 +19,6 @@ const { route } = require('@adonisjs/framework/src/Route/Manager')
 const Route = use('Route')
 
 Route.on('/').render('home')
-Route.on('/aptos').render('apartamentos')
+Route.on('/aptos_').render('apartamentos')
 Route.on('/add_ap').render('add_apto')
-Route.get('/task', 'BuildingController.index')
+Route.get('/aptos', 'BuildingController.index')
