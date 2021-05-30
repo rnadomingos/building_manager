@@ -1,6 +1,6 @@
 'use strict'
 
-const Apartament = use('App/Models/Apartament')
+const Apartament = use('App/Models/Apartamento')
 
 class BuildingController {
 
