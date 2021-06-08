@@ -20,6 +20,7 @@ const Route = use('Route')
 
 Route.on('/').render('home')
 Route.on('/aptos_').render('apartamentos')
+Route.on('/list').render('list_teste')
 Route.on('/add_ap').render('add_apto')
 Route.on('/morador').render('morador')
 Route.get('/aptos', 'BuildingController.index')
